@@ -38,7 +38,7 @@ function sword(){
       setTimeout(function(){
         perder();
         ganhar()
-      }, 2000);
+      }, 1500);
     }
     
     
@@ -60,7 +60,7 @@ function magic(){
         porcentagem2(CAH, vidaHERO,vidaTH);
         setTimeout(function(){
           perder();
-        }, 2000);
+        }, 1500);
       }
       
       
@@ -91,7 +91,7 @@ function heal(){
               porcentagem2(CAH, vidaHERO,vidaTH);
               setTimeout(function(){
                 perder();
-              }, 2000);
+              }, 1500);
             }
           }, 1000);
 
@@ -109,7 +109,7 @@ function dodge(){
     porcentagem2(CAH, vidaHERO,vidaTH);
     setTimeout(function(){
       perder();
-    }, 2000);
+    }, 1500);
   }
   
 }
@@ -200,5 +200,5 @@ function ganhar(){
 
 
   function next(){
-    window.location.href = "PARABENS.html";
+    window.location.href = "../PARABENS.html";
   }
