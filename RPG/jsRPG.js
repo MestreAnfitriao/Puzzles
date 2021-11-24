@@ -200,5 +200,5 @@ function ganhar(){
 
 
   function next(){
-    
+    window.location.href = "PARABENS.html";
   }
